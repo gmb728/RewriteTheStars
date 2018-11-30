@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B023B2D21AFBE1100A8A098 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B023B2C21AFBE1100A8A098 /* ChatTableViewController.swift */; };
+		9B023B2F21AFC0B800A8A098 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B023B2E21AFC0B800A8A098 /* Message.swift */; };
+		9B023B3121AFC37600A8A098 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B023B3021AFC37600A8A098 /* MessageTableViewCell.swift */; };
 		9BE8B3FA21AFBDD2004D0DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8B3F921AFBDD2004D0DB8 /* AppDelegate.swift */; };
 		9BE8B3FC21AFBDD2004D0DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8B3FB21AFBDD2004D0DB8 /* ViewController.swift */; };
 		9BE8B3FF21AFBDD2004D0DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8B3FD21AFBDD2004D0DB8 /* Main.storyboard */; };
@@ -15,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BE8B3F621AFBDD2004D0DB8 /* LoveChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B023B2C21AFBE1100A8A098 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		9B023B2E21AFC0B800A8A098 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9B023B3021AFC37600A8A098 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		9BE8B3F621AFBDD2004D0DB8 /* RewriteTheStars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewriteTheStars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE8B3F921AFBDD2004D0DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE8B3FB21AFBDD2004D0DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BE8B3FE21AFBDD2004D0DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +44,7 @@
 		9BE8B3ED21AFBDD2004D0DB8 = {
 			isa = PBXGroup;
 			children = (
-				9BE8B3F821AFBDD2004D0DB8 /* LoveChat */,
+				9BE8B3F821AFBDD2004D0DB8 /* RewriteTheStars */,
 				9BE8B3F721AFBDD2004D0DB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,33 @@
 		9BE8B3F721AFBDD2004D0DB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BE8B3F621AFBDD2004D0DB8 /* LoveChat.app */,
+				9BE8B3F621AFBDD2004D0DB8 /* RewriteTheStars.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BE8B3F821AFBDD2004D0DB8 /* LoveChat */ = {
+		9BE8B3F821AFBDD2004D0DB8 /* RewriteTheStars */ = {
 			isa = PBXGroup;
 			children = (
 				9BE8B3F921AFBDD2004D0DB8 /* AppDelegate.swift */,
 				9BE8B3FB21AFBDD2004D0DB8 /* ViewController.swift */,
 				9BE8B3FD21AFBDD2004D0DB8 /* Main.storyboard */,
+				9B023B2C21AFBE1100A8A098 /* ChatTableViewController.swift */,
+				9B023B3021AFC37600A8A098 /* MessageTableViewCell.swift */,
+				9B023B2E21AFC0B800A8A098 /* Message.swift */,
 				9BE8B40021AFBDD4004D0DB8 /* Assets.xcassets */,
 				9BE8B40221AFBDD4004D0DB8 /* LaunchScreen.storyboard */,
 				9BE8B40521AFBDD4004D0DB8 /* Info.plist */,
 			);
-			path = LoveChat;
+			path = RewriteTheStars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BE8B3F521AFBDD2004D0DB8 /* LoveChat */ = {
+		9BE8B3F521AFBDD2004D0DB8 /* RewriteTheStars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BE8B40821AFBDD4004D0DB8 /* Build configuration list for PBXNativeTarget "LoveChat" */;
+			buildConfigurationList = 9BE8B40821AFBDD4004D0DB8 /* Build configuration list for PBXNativeTarget "RewriteTheStars" */;
 			buildPhases = (
 				9BE8B3F221AFBDD2004D0DB8 /* Sources */,
 				9BE8B3F321AFBDD2004D0DB8 /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = LoveChat;
+			name = RewriteTheStars;
 			productName = LoveChat;
-			productReference = 9BE8B3F621AFBDD2004D0DB8 /* LoveChat.app */;
+			productReference = 9BE8B3F621AFBDD2004D0DB8 /* RewriteTheStars.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BE8B3F121AFBDD2004D0DB8 /* Build configuration list for PBXProject "LoveChat" */;
+			buildConfigurationList = 9BE8B3F121AFBDD2004D0DB8 /* Build configuration list for PBXProject "RewriteTheStars" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BE8B3F521AFBDD2004D0DB8 /* LoveChat */,
+				9BE8B3F521AFBDD2004D0DB8 /* RewriteTheStars */,
 			);
 		};
 /* End PBXProject section */
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE8B3FC21AFBDD2004D0DB8 /* ViewController.swift in Sources */,
+				9B023B2F21AFC0B800A8A098 /* Message.swift in Sources */,
 				9BE8B3FA21AFBDD2004D0DB8 /* AppDelegate.swift in Sources */,
+				9B023B3121AFC37600A8A098 /* MessageTableViewCell.swift in Sources */,
+				9B023B2D21AFBE1100A8A098 /* ChatTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +295,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoveChat/Info.plist;
+				INFOPLIST_FILE = RewriteTheStars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.LoveChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.RewriteTheStars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +312,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoveChat/Info.plist;
+				INFOPLIST_FILE = RewriteTheStars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.LoveChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.RewriteTheStars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BE8B3F121AFBDD2004D0DB8 /* Build configuration list for PBXProject "LoveChat" */ = {
+		9BE8B3F121AFBDD2004D0DB8 /* Build configuration list for PBXProject "RewriteTheStars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BE8B40621AFBDD4004D0DB8 /* Debug */,
@@ -324,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BE8B40821AFBDD4004D0DB8 /* Build configuration list for PBXNativeTarget "LoveChat" */ = {
+		9BE8B40821AFBDD4004D0DB8 /* Build configuration list for PBXNativeTarget "RewriteTheStars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BE8B40921AFBDD4004D0DB8 /* Debug */,
